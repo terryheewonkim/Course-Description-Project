@@ -58,9 +58,10 @@ textarea {
   }
 }
 
-/* -------------------- */
+/* ------------------- */
 /* ----- < 768px ----- */
-/* -------------------- */
+/* ------ MOBILE ----- */
+/* ------------------- */
 
 /* Utilities */
 .fill-button {
@@ -126,9 +127,63 @@ textarea {
 }
 
 /* SERVICE SECTION */
+.service {
+  padding: 80px 0;
+  background-color: #f4f5f7;
+}
+
+.service .section-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3636363636;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+
+.service .col-12:first-child {
+  margin-bottom: 40px;
+}
+
+/* PROGRAM SECTION */
+.program-section {
+  padding: 80px 0;
+}
+
+.program-section .section-category {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #009b4d;
+}
+
+.program-section .section-title {
+  font-size: 34px;
+  line-height: 1.0588235294;
+  margin-bottom: 24px;
+}
+
+.program-section .section-desc {
+  margin-bottom: 32px;
+}
+
+.program-section .program-card {
+  width: 290px;
+  height: 291px;
+}
+
+.program-card img {
+  width: 100%;
+  height: auto;
+}
+
+.program-card h2 {
+  font-size: 18px;
+  line-height: 1.3333333333;
+  letter-spacing: 0.02em;
+}
 
 /* -------------------- */
 /* ----- >= 768px ----- */
+/* ------ DESKTOP ----- */
 /* -------------------- */
 
 @media screen and (min-width: 768px) {
