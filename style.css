@@ -89,6 +89,21 @@ textarea {
   opacity: 0.5;
 }
 
+.section-category {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 34px;
+  line-height: 1.0588235294;
+  margin-bottom: 24px;
+}
+
+.section-desc {
+  margin-bottom: 32px;
+}
+
 /* LANDING SECTION */
 .landing {
   text-align: center;
@@ -150,19 +165,7 @@ textarea {
 }
 
 .program-section .section-category {
-  display: inline-block;
-  margin-bottom: 8px;
   color: #009b4d;
-}
-
-.program-section .section-title {
-  font-size: 34px;
-  line-height: 1.0588235294;
-  margin-bottom: 24px;
-}
-
-.program-section .section-desc {
-  margin-bottom: 32px;
 }
 
 .program-section .program-card {
@@ -179,8 +182,9 @@ textarea {
 }
 
 .program-card img {
-  width: 50%;
-  height: auto;
+  width: auto;
+  height: 195px;
+  margin-bottom: 16px;
 }
 
 .program-card h2 {
@@ -207,6 +211,23 @@ textarea {
     height: 56px;
     font-size: 18px;
     line-height: 1.5555555556;
+  }
+
+  .section-category {
+    font-size: 22px;
+    line-height: 1.0909090909;
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    margin-bottom: 32px;
+  }
+
+  .section-desc {
+    line-height: 1.4545454545;
   }
 
   /* LANDING SECTION */
@@ -244,5 +265,26 @@ textarea {
 
   .service .col-12:first-child {
     margin-bottom: 0;
+  }
+
+  /* PROGRAM SECTION */
+  .program-section {
+    padding-bottom: 96px;
+    text-align: center;
+  }
+
+  .program-section .program-card {
+    transition: background-color 150ms ease-in, box-shadow 150ms ease-in;
+  }
+
+  .program-card img {
+    margin-bottom: 24px;
+  }
+
+  .program-section .program-card:hover {
+    background-color: #3141c5;
+    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15),
+      0px 11px 55px rgba(0, 0, 0, 0.07);
+    color: #fff;
   }
 }
