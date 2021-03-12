@@ -219,6 +219,66 @@ textarea {
   margin-bottom: 40px;
 }
 
+/* SUBSCRIPTION SECTION */
+.subscription {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f2f8fa;
+}
+
+.subscription-image {
+  width: 290px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.subscription-image img {
+  width: auto;
+  height: 100%;
+  max-height: 190px;
+}
+
+.subscription-title {
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 16px;
+}
+
+.subscription-desc {
+  margin-bottom: 24px;
+}
+
+.subscription .input-group input {
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 2px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #7b7b7e;
+  background-color: #fff;
+}
+
+.subscription .input-group button {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.subscription .terms {
+  font-size: 13px;
+  line-height: 1.5384615385;
+}
+
+.subscription .terms a {
+  text-decoration: underline;
+  color: #3040c4;
+}
+
 /* -------------------- */
 /* ----- >= 768px ----- */
 /* ------ DESKTOP ----- */
@@ -344,5 +404,52 @@ textarea {
 
   .curriculum-section .row:last-child .col-12:first-child {
     margin-bottom: 0;
+  }
+
+  /* SUBSCRIPTION SECTION*/
+  .subscription {
+    height: 460px;
+    text-align: start;
+    padding: 80px 0;
+  }
+
+  .subscription-image {
+    width: 370px;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .subscription-image img {
+    max-height: 285px;
+  }
+
+  .subscription-title {
+    font-size: 40px;
+  }
+
+  .subscription .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+
+  .subscription .input-group input {
+    width: 362px;
+    height: 56px;
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .subscription .input-group button {
+    width: 160px;
+    margin-bottom: 0px;
+  }
+
+  .subscription .terms {
+    font-size: 14px;
+    line-height: 1.7142857143;
   }
 }
